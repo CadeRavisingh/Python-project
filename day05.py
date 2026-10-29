@@ -1,10 +1,10 @@
 # Student grade calculator with input validation. Deliverable:
 def get_valid_score(assignment_name):
-    """Prompts the user for a score and validates that it is a number between 0 and 100."""
+    # """Prompts the user for a score and validates that it is a number between 0 and 100."""
     while True:
         user_input = input(f"Enter the score for {assignment_name} (0-100): ").strip()
         
-        # Check if input is empty
+       
         if not user_input:
             print("Input cannot be empty. Please enter a number.")
             continue
